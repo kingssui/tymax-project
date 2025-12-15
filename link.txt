@@ -1,81 +1,20 @@
 <head>
+
+<link rel="stylesheet" href="https://unpkg.com/easymde/dist/easymde.min.css">
+<script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
+
   <style>
-    /* BRAND COLORS */
-    :root {
-      --tygreen: #51cc4a;
-      --tyblue:  #132557;
-      --tymuted: #6b7280;
-      --card-bg: #ffffff;
-      --glass: rgba(19,37,87,0.03);
-      --radius: 14px;
-      --max-width: 1200px;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background: var(--glass);
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-    }
-
-    .card {
-      background: var(--card-bg);
-      padding: 20px;
-      border-radius: var(--radius);
-      width: 380px;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.07);
-      border: 1px solid rgba(0,0,0,0.05);
-    }
-
-    textarea {
-      width: 100%;
-      height: 120px;
-      padding: 12px;
-      border-radius: var(--radius);
-      border: 1px solid var(--tymuted);
-      outline: none;
-      resize: none;
-      font-size: 15px;
-      transition: 0.2s;
-    }
-
-    textarea:focus {
-      border-color: var(--tygreen);
-      box-shadow: 0 0 4px rgba(81,204,74,0.4);
-    }
-
-    button {
-      width: 100%;
-      margin-top: 12px;
-      padding: 12px;
-      font-size: 16px;
-      font-weight: bold;
-      background: var(--tygreen);
-      color: white;
-      border: none;
-      border-radius: var(--radius);
-      cursor: pointer;
-      transition: 0.2s;
-    }
-
-    button:hover {
-      opacity: 0.9;
-    }
+   
   </style>
 </head>
 
 <body>
-  <div class="card">
-    <textarea placeholder="Write your report..."></textarea>
-    <button>Save</button>
-    <button>Edit</button>
-  </div>
+ 
+    <textarea></textarea>
+<script>
+const easyMDE = new EasyMDE();
+</script>
+ 
 </body>
-
-
-
 
 
